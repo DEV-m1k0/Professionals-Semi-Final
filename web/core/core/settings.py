@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'api'
 ]
 
+AUTH_USER_MODEL = 'my_models.MyUser'
+
 REST_FRAMEWORK = {
     # Use Django's standard `django.contrib.auth` permissions,
     # or allow read-only access for unauthenticated users.

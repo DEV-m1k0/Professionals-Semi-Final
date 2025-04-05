@@ -1,0 +1,86 @@
+[
+    {
+        "model": "my_models.machineworkstatus",
+        "pk": 1,
+        "fields": {
+            "title": "Рабочий"
+        }
+    },
+    {
+        "model": "my_models.machineworkstatus",
+        "pk": 2,
+        "fields": {
+            "title": "Не рабочий"
+        }
+    },
+    {
+        "model": "my_models.machineworkstatus",
+        "pk": 3,
+        "fields": {
+            "title": "На обслуживании"
+        }
+    },
+    {
+        "model": "my_models.machinetypepaymentmethod",
+        "pk": 1,
+        "fields": {
+            "title": "С оплатой картой"
+        }
+    },
+    {
+        "model": "my_models.machinetypepaymentmethod",
+        "pk": 2,
+        "fields": {
+            "title": "С оплатой наличными"
+        }
+    },
+    {
+        "model": "my_models.machinetypepaymentmethod",
+        "pk": 3,
+        "fields": {
+            "title": "Два вида оплаты"
+        }
+    },
+    {
+        "model": "my_models.purchesemethod",
+        "pk": 1,
+        "fields": {
+            "title": "Наличные"
+        }
+    },
+    {
+        "model": "my_models.purchesemethod",
+        "pk": 2,
+        "fields": {
+            "title": "Карта"
+        }
+    },
+    {
+        "model": "my_models.purchesemethod",
+        "pk": 3,
+        "fields": {
+            "title": "QR"
+        }
+    },
+    {
+        "model": "my_models.userrole",
+        "pk": 1,
+        "fields": {
+            "title": "Администратор"
+        }
+    },
+    {
+        "model": "my_models.userrole",
+        "pk": 2,
+        "fields": {
+            "title": "Оператор"
+        }
+    },
+    {
+        "model": "my_models.userrole",
+        "pk": 3,
+        "fields": {
+            "title": "Механик"
+        }
+    }
+]
